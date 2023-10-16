@@ -43,6 +43,8 @@ body {
     font-family: Lato;
 
     line-height: 150%;
+
+    overflow-y: scroll;
 }
 
 @media screen and (orientation: landscape) {
