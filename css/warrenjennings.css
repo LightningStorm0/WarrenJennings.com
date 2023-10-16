@@ -1,0 +1,122 @@
+:root {
+    --background: #FFFCF7;
+    --accent: #1E5387;
+    --secondary-accent: #847E89;
+    --accent-font: #ffffff;
+    --foreground: #EBE7E0;
+    --foreground-font: #232323;
+
+    --shadow-color: #2323236b;
+
+    --shadow: 2px 2px 4px var(--shadow-color);
+}
+  
+
+@font-face {
+    font-family: MartianMono;
+    src: url(../resources/MartianMono.ttf);
+}
+
+@font-face {
+    font-family: LatoItalic;
+    src: url(../resources/Lato/Lato-Italic.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(../resources/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: LatoBold;
+    src: url(../resources/Lato/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: LatoBlack;
+    src: url(../resources/Lato/Lato-Black.ttf);
+}
+
+@media screen and (orientation: landscape) {
+    body {
+        background-color: var(--background);
+        color: var(--foreground-font);
+        font-family: Lato;
+
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    body {
+        background-color: var(--background);
+        color: var(--foreground-font);
+        font-family: Lato;
+    }
+}
+  
+h1 {
+    font-family: MartianMono;
+}
+
+p {
+    font-size: medium;
+
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+b {
+    font-weight: normal;
+    font-family: LatoBold;
+}
+
+i {
+    font-style: normal;
+    font-family: LatoItalic;
+}
+
+.card-title {
+    font-size: large;
+    font-family: LatoBlack;
+}
+
+mark {
+    background-color: var(--accent);
+    color: var(--accent-font);
+}
+
+.card {
+    background-color: var(--foreground);
+    color: var(--foreground-font);
+
+    margin-top: 8px;
+    padding: 8px;
+
+    box-shadow: var(--shadow);
+}
+
+.accent-card {
+    background-color: var(--accent);
+    color: var(--accent-font);
+
+    margin-top: 8px;
+    padding: 8px;
+
+    box-shadow: var(--shadow);
+}
+
+.secondary-accent-card {
+    background-color: var(--secondary-accent);
+    color: var(--accent-font);
+
+    margin-top: 8px;
+    padding: 8px;
+
+    box-shadow: var(--shadow);
+}
+
+#MenuBar{
+    width: 100%;
+}
