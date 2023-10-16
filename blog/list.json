@@ -1,6 +1,9 @@
 {
     "posts" : [
       {
+        "title": "Welcome to My Website!",
+        "date": "16 Oct 2023",
+        "content": "16Oct2023.html"
       }
     ]
     
