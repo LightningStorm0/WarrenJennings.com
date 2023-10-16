@@ -10,7 +10,7 @@ class Header extends HTMLElement {
                 <h1>Warren Jennings</h1>
             </div>
             <div class="secondary-accent-card">
-                <text><b>Options bar<b></text>
+                <text><a href="..">Home</a></text>
             </div>
         </div>
       `;
