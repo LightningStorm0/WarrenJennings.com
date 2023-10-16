@@ -1,54 +1,6 @@
 {
     "posts" : [
       {
-        "title": "Test Post - Title",
-        "date": "04 Oct 2023",
-        "content": "test.html"
-      },
-      {
-        "title": "Test Post - Title",
-        "date": "03 Oct 2023",
-        "content": "test-two.html"
-      },
-      {
-        "title": "Test Post - Title",
-        "date": "04 Oct 2023",
-        "content": "test.html"
-      },
-      {
-        "title": "Test Post - Title",
-        "date": "03 Oct 2023",
-        "content": "test-two.html"
-      },
-      {
-        "title": "Test Post - Title",
-        "date": "04 Oct 2023",
-        "content": "test.html"
-      },
-      {
-        "title": "Test Post - Title",
-        "date": "03 Oct 2023",
-        "content": "test-two.html"
-      },
-      {
-        "title": "Test Post - Title",
-        "date": "04 Oct 2023",
-        "content": "test.html"
-      },
-      {
-        "title": "Test Post - Title",
-        "date": "03 Oct 2023",
-        "content": "test-two.html"
-      },
-      {
-        "title": "Test Post - Title",
-        "date": "04 Oct 2023",
-        "content": "test.html"
-      },
-      {
-        "title": "Test Post - Title",
-        "date": "03 Oct 2023",
-        "content": "test-two.html"
       }
     ]
     
