@@ -137,3 +137,16 @@ mark {
 #MenuBar{
     width: 100%;
 }
+
+#MenuBarItems{
+    display: flex;
+    flex-direction: row;
+}
+
+.menuBarSpacer {
+    min-width: 20px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-justify: center;
+}

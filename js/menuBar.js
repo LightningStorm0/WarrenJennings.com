@@ -9,8 +9,10 @@ class Header extends HTMLElement {
             <div class="accent-card">
                 <h1>Warren Jennings</h1>
             </div>
-            <div class="secondary-accent-card">
+            <div class="secondary-accent-card" id="MenuBarItems">
                 <text><a href="..">Home</a></text>
+                <text class="menuBarSpacer"><a href=".."> - </a></text>
+                <text><a href="../golf/game.html">Golf Game</a></text>
             </div>
         </div>
       `;
