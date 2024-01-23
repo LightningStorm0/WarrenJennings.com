@@ -10,9 +10,9 @@ class Header extends HTMLElement {
                 <h1>Warren Jennings</h1>
             </div>
             <div class="secondary-accent-card" id="MenuBarItems">
-                <text><a href="..">Home</a></text>
-                <text class="menuBarSpacer"><a href=".."> - </a></text>
-                <text><a href="../golf/game.html">Golf Game</a></text>
+                <text><a href="/">Home</a></text>
+                <text class="menuBarSpacer"><b> - </b></text>
+                <text><a href="/godot/pieces.html">Godot Pieces</a></text>
             </div>
         </div>
       `;
